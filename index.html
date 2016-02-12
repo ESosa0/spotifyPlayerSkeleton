@@ -1,15 +1,23 @@
 <html>
 <head>
 	<title></title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="app.js"> </script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	 <form>
+
+      <input type="text" class="keyword" placeholder="keyword"/></label>
+      <button class="search" type="submit">Search</button>
+    
+    </form>
 	<div class="widget">
 		<div class="header">
 		<!-- Try adding/removing these classes: -->
 		<!-- disabled -->
 		<!-- playing -->
-		<div class="btn-play disabled"></div>
+		<div class="btn-play"></div>
 
 		<div class="metadata">
 		  <p class="title">Hunger of The Pine</p>
@@ -21,10 +29,10 @@
 		</div>
 		</div>
 		<div class="cover">
-		<img src="https://i.scdn.co/image/04da6dfc1f5f45fdeba938a0cc71cf372524fd43">
+		<img src="https://i.scdn.co/image/04da6dfc1f5f45fdeba938a0cc71cf372524fd43" id="image">
 		</div>
 
-		<audio src="https://p.scdn.co/mp3-preview/8e9c5ffdc38e91659bfe8b6bd44650dfc25a3d31"></audio>
+		<audio src="https://i.scdn.co/image/04da6dfc1f5f45fdeba938a0cc71cf372524fd43" class="js-player"></audio>
 	</div>
 
 </body>
